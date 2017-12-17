@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入用户名" />
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入密码" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="login"
+        android:gravity="center"
+        android:text="登录" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="insert"
+        android:gravity="center"
+        android:text="插入数据" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="app_update"
+        android:gravity="center"
+        android:text="app升级" />
+</LinearLayout>
